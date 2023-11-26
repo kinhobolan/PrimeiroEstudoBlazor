@@ -1,0 +1,23 @@
+  <p>
+    @* <input type="checkbox">
+    <button class="m-1 btn btn-sm btn-warning">Edit</button>   
+    <button class="m-1 btn btn-sm btn-danger">X</button> *@
+    <span>Component foi: @texto</span>
+     <button class="tn btn-sm btn-danger" @onclick="Click">X @info</button>
+  </p>  
+
+
+  @code{
+
+    [Parameter]
+    public string info {get; set;} = "Demo Info";
+    private string texto = string.Empty;
+    private void Click(){
+
+        texto = "Clicado";
+
+    }
+
+
+
+  }

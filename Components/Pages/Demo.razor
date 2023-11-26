@@ -1,0 +1,17 @@
+@page "/demo"
+
+@* Caso pricise utilizar outro layout *@
+@layout PrimeiroEstudoBlazor.Components.Layout.LandPageLayout
+
+
+<PageTitle>Demo</PageTitle>
+<h5>Página Demo - usa outro layout</h5>
+<h4>@mainTitle</h4>
+<p>------------------------</p>
+
+
+@code{
+
+  [Parameter]
+  public string mainTitle {get; set;} = "Faltou passar o titulo pelo parameto => mainTitle";
+}

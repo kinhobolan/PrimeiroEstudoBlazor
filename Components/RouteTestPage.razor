@@ -1,0 +1,10 @@
+@page "/routetestpage/{id}"
+
+<h6>Route Test Page -> /routetestpage/7</h6>
+<h5>@id</h5>
+
+@code{
+
+  [Parameter]
+  public string id {get; set;} = "Nenhum id foi passado";
+}

@@ -1,0 +1,91 @@
+@page "/todo"
+@rendermode InteractiveServer
+@using System.Diagnostics
+
+<PageTitle>To do List</PageTitle>
+
+<h3>To do List  :)</h3>
+
+<input class="input-group-sm" @bind="taskName" placeholder="Tarefa a fazer"/>
+<input @bind="taskDate" type="date"/>
+<input @bind="taskTime" type="time"/>
+<button class="btn btn-primary" @onclick="AddToDo">Add</button>
+<button class="btn btn-danger" @onclick="RemoveAllTask">Remover Todos</button>
+
+
+
+<ul class="p-4 bg-light border-1 border-dark">
+    @foreach (var task in todoItemList){
+      <li class="list-unstyled">
+        <p>
+          <input type="checkbox"> @task.title @task.fullTime.ToString("dddd, dd MMMM yyyy HH:mm")
+          <button class="m-1 btn btn-sm btn-warning" @onclick="(() => EditTask(task))">Edit</button>   
+          <button class="m-1 btn btn-sm btn-danger" @onclick="(() => RemoveTask(task))">X</button>  
+          <TodoItemView info="Super"/>   
+        </p>  
+      </li>
+    }
+</ul>
+
+
+@code{
+
+   class TodoItem{
+
+    public string? title {get; set;}
+    public bool isDone {get; set;}
+    public DateTime fullTime {get; set;}
+  }
+
+  private string taskName = string.Empty;
+
+  private DateTime taskDate = DateTime.Now;
+
+  private DateTime taskTime = DateTime.Now;
+
+  private List<TodoItem> todoItemList = new();
+
+  private void Test(){
+
+  taskName = "TEste";
+  
+  }
+
+  private void AddToDo(){
+
+    if(!string.IsNullOrEmpty(taskName)){
+
+      DateTime combine = new DateTime (taskDate.Year, taskDate.Month, taskDate.Day, taskTime.Hour, taskTime.Minute, taskTime.Second);
+      todoItemList.Add( new TodoItem {title = taskName, isDone = false, fullTime = combine});
+      ClearFields();
+    }
+    
+  }
+
+  private void EditTask(TodoItem task){
+
+    taskName = task.title;
+    taskDate = task.fullTime.Date;
+    taskTime = new DateTime (task.fullTime.Year, task.fullTime.Month, task.fullTime.Day, task.fullTime.Hour, task.fullTime.Minute, task.fullTime.Second);
+  
+  }
+
+  private void RemoveTask(TodoItem task){
+     
+      todoItemList.Remove(task);    
+      
+
+  }
+
+  private void RemoveAllTask(){
+
+    todoItemList.Clear();
+  }
+
+
+  private void ClearFields(){
+    taskName = string.Empty;
+  }
+
+
+}
