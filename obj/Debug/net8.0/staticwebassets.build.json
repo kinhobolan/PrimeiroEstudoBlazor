@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "D3QvWrwx/x6Cg72p6sf7/26F949HuLxZ83L2kZ704K8=",
+  "Hash": "VeWnli9iaSp96XAnQPjOssAqyHcPT3/GFuocM5MBcJE=",
   "Source": "PrimeiroEstudoBlazor",
   "BasePath": "_content/PrimeiroEstudoBlazor",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "PrimeiroEstudoBlazor\\wwwroot",
       "Source": "PrimeiroEstudoBlazor",
-      "ContentRoot": "E:\\git\\PrimeiroEstudoBlazor\\wwwroot\\",
+      "ContentRoot": "E:\\Git\\PrimeiroEstudoBlazor\\wwwroot\\",
       "BasePath": "_content/PrimeiroEstudoBlazor",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "E:\\git\\PrimeiroEstudoBlazor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PrimeiroEstudoBlazor.styles.css",
+      "Identity": "E:\\Git\\PrimeiroEstudoBlazor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PrimeiroEstudoBlazor.styles.css",
       "SourceId": "PrimeiroEstudoBlazor",
       "SourceType": "Computed",
-      "ContentRoot": "E:\\git\\PrimeiroEstudoBlazor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "E:\\Git\\PrimeiroEstudoBlazor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/PrimeiroEstudoBlazor",
       "RelativePath": "PrimeiroEstudoBlazor.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "E:\\git\\PrimeiroEstudoBlazor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PrimeiroEstudoBlazor.styles.css"
+      "OriginalItemSpec": "E:\\Git\\PrimeiroEstudoBlazor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PrimeiroEstudoBlazor.styles.css"
     },
     {
-      "Identity": "E:\\git\\PrimeiroEstudoBlazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PrimeiroEstudoBlazor.bundle.scp.css",
+      "Identity": "E:\\Git\\PrimeiroEstudoBlazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PrimeiroEstudoBlazor.bundle.scp.css",
       "SourceId": "PrimeiroEstudoBlazor",
       "SourceType": "Computed",
-      "ContentRoot": "E:\\git\\PrimeiroEstudoBlazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "E:\\Git\\PrimeiroEstudoBlazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/PrimeiroEstudoBlazor",
       "RelativePath": "PrimeiroEstudoBlazor.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "E:\\git\\PrimeiroEstudoBlazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PrimeiroEstudoBlazor.bundle.scp.css"
+      "OriginalItemSpec": "E:\\Git\\PrimeiroEstudoBlazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PrimeiroEstudoBlazor.bundle.scp.css"
     },
     {
-      "Identity": "E:\\git\\PrimeiroEstudoBlazor\\wwwroot\\app.css",
+      "Identity": "E:\\Git\\PrimeiroEstudoBlazor\\wwwroot\\app.css",
       "SourceId": "PrimeiroEstudoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\git\\PrimeiroEstudoBlazor\\wwwroot\\",
+      "ContentRoot": "E:\\Git\\PrimeiroEstudoBlazor\\wwwroot\\",
       "BasePath": "_content/PrimeiroEstudoBlazor",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "E:\\git\\PrimeiroEstudoBlazor\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "E:\\Git\\PrimeiroEstudoBlazor\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "PrimeiroEstudoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\git\\PrimeiroEstudoBlazor\\wwwroot\\",
+      "ContentRoot": "E:\\Git\\PrimeiroEstudoBlazor\\wwwroot\\",
       "BasePath": "_content/PrimeiroEstudoBlazor",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "E:\\git\\PrimeiroEstudoBlazor\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "E:\\Git\\PrimeiroEstudoBlazor\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "PrimeiroEstudoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\git\\PrimeiroEstudoBlazor\\wwwroot\\",
+      "ContentRoot": "E:\\Git\\PrimeiroEstudoBlazor\\wwwroot\\",
       "BasePath": "_content/PrimeiroEstudoBlazor",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "E:\\git\\PrimeiroEstudoBlazor\\wwwroot\\favicon.png",
+      "Identity": "E:\\Git\\PrimeiroEstudoBlazor\\wwwroot\\favicon.png",
       "SourceId": "PrimeiroEstudoBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\git\\PrimeiroEstudoBlazor\\wwwroot\\",
+      "ContentRoot": "E:\\Git\\PrimeiroEstudoBlazor\\wwwroot\\",
       "BasePath": "_content/PrimeiroEstudoBlazor",
       "RelativePath": "favicon.png",
       "AssetKind": "All",

@@ -9,13 +9,13 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PrimeiroEstudoBlazor
 build_property.RootNamespace = PrimeiroEstudoBlazor
-build_property.ProjectDir = E:\git\PrimeiroEstudoBlazor\
+build_property.ProjectDir = E:\Git\PrimeiroEstudoBlazor\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\git\PrimeiroEstudoBlazor
+build_property.MSBuildProjectDirectory = E:\Git\PrimeiroEstudoBlazor
 build_property._RazorSourceGeneratorDebug = 
 
 [E:/Git/PrimeiroEstudoBlazor/Components/App.razor]
