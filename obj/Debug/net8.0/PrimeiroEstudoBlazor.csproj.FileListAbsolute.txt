@@ -30,3 +30,4 @@ E:\git\primeiroEstudoBlazor\obj\Debug\net8.0\ref\PrimeiroEstudoBlazor.dll
 E:\git\primeiroEstudoBlazor\obj\Debug\net8.0\scopedcss\Components\Layout\NewLayout.razor.rz.scp.css
 E:\git\primeiroEstudoBlazor\obj\Debug\net8.0\scopedcss\Components\Layout\LandPageLayout.razor.rz.scp.css
 E:\git\primeiroEstudoBlazor\obj\Debug\net8.0\scopedcss\Components\RouteTestPage.razor.rz.scp.css
+E:\Git\PrimeiroEstudoBlazor\obj\Debug\net8.0\PrimeiroEstudoBlazor.sourcelink.json
